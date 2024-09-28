@@ -1,0 +1,27 @@
+layout {
+    default_tab_template {
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+        children
+        pane size=2 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+    }
+	tab name="delf" cwd="/home/spiritum/dev/rust/fasterthanli.me/packer/part1/delf" focus=true {
+		pane edit="."
+	}
+	tab name="elk" cwd="/home/spiritum/dev/rust/fasterthanli.me/packer/part1/elk" {
+		pane
+	}
+	tab name="term" split_direction="vertical" cwd="~" {
+		pane
+		pane split_direction="horizontal" {
+			pane
+			pane
+		}
+	}
+	tab name="yazi" cwd="~" {
+		pane command="yazi"
+	}
+}

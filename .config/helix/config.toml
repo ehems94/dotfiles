@@ -1,0 +1,57 @@
+theme = "sonokai"
+
+[editor]
+# Renders a line at the top of the editor displaying open buffers, only for more than 1 buffer
+bufferline = "always"
+#Enable automatic formatting on save
+auto-format = true
+# Highlight all lines with a cursor
+cursorline = true
+# Disable use of mouse
+mouse = false
+# List of column positions at which to display the rulers
+rulers = [120]
+# Disable automatic insertion of pairs of parentheses, brackets etc
+auto-pairs = false
+# Use relative line numbers
+line-number = "relative"
+# Force the theme to show colors
+true-color = true
+# The min-length of word under cursor to trigger autocompletion
+completion-trigger-len = 1
+# Time in milliseconds after typing a word character before completions are shown, set to 5 for instant.
+completion-timeout = 100
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control", "file-modification-indicator", "read-only-indicator"]
+center = ["file-name"]
+right = ["diagnostics", "register", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[keys.insert]
+"C-s" = [":write", "normal_mode"]
+
+[editor.lsp]
+# Show LSP messages in the status line
+display-messages = true
+
+[keys.normal]
+"A-," = "goto_previous_buffer"
+"A-left" = "goto_previous_buffer"
+"A-;" = "goto_next_buffer"
+"A-right" = "goto_next_buffer"
+"A-w" = ":buffer-close"
+A-x = "extend_to_line_bounds"
+X = ["extend_line_up", "extend_to_line_bounds"]
+
+[keys.select]
+A-x = "extend_to_line_bounds"
+X = ["extend_line_up", "extend_to_line_bounds"]

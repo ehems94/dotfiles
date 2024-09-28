@@ -1,0 +1,33 @@
+# Tools
+
+- https://github.com/casey/just
+- https://github.com/chmln/sd
+- https://github.com/sxyazi/yazi
+- https://github.com/dalance/procs
+- https://github.com/helix-editor/helix
+- https://github.com/gnunn1/tilix
+- https://github.com/ajeetdsouza/zoxide
+- https://github.com/sharkdp/bat
+- https://github.com/eza-community/eza
+- https://github.com/dandavison/delta
+- https://github.com/muesli/duf
+- https://github.com/bootandy/dust
+- https://github.com/sharkdp/fd
+- https://github.com/BurntSushi/ripgrep
+- https://github.com/junegunn/fzf
+- https://github.com/stedolan/jq
+- https://github.com/sharkdp/hexyl
+- https://github.com/extrawurst/gitui
+- https://github.com/yshui/picom
+- https://github.com/Raymo111/i3lock-color
+- https://github.com/betterlockscreen/betterlockscreen
+- https://github.com/davatorium/rofi
+- https://github.com/polybar/polybar
+- https://github.com/wez/wezterm
+- https://github.com/zellij-org/zellij
+- https://github.com/dreamer/scrot
+- http://github.com/ClementTsang/bottom
+- http://github.com/alacritty/alacritty
+
+- xautolock
+- convert
