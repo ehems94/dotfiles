@@ -10,3 +10,7 @@ command = "rust-analyzer"
 
 [language-server.rust-analyzer.config.check]
 command = "clippy"
+
+[language-server.pylsp.config.pylsp]
+plugins.ruff.enabled = true
+plugins.black.enabled = true
