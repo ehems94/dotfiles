@@ -3,6 +3,11 @@ program = "/home/spiritum/.cargo/bin/zellij"
 
 [font]
 normal = { family = "FiraCode Nerd Font", style = "Regular" }
+size = 10
+
+[window]
+decorations = "None"
+padding = { x = 7, y = 7 }
 
 [terminal]
 osc52 = "CopyPaste"
