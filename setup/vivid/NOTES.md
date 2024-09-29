@@ -1,0 +1,3 @@
+ # Vivid
+
+- cargo install vivid
