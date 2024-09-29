@@ -1,4 +1,4 @@
-theme = "sonokai"
+theme = "catppuccin_mocha"
 
 [editor]
 # Renders a line at the top of the editor displaying open buffers, only for more than 1 buffer
