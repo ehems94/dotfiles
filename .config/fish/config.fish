@@ -3,7 +3,6 @@ if status is-interactive
 end
 
 set -gx EDITOR hx
-set -gx BAT_PAGER none
 
 starship init fish | source
 fzf --fish | source

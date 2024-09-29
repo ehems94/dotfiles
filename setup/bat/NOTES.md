@@ -1,0 +1,3 @@
+# Bat
+
+- bat cache --build
