@@ -57,7 +57,7 @@ bindsym F6 exec --no-startup-id brightnessctl set 10%-
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec wezterm
 # kill focused window
 bindsym $mod+Shift+Q kill
 
@@ -221,3 +221,5 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #default_border none
 
 for_window [class="1Password"] floating enable
+for_window [class="firefox"] border pixel 0
+for_window [class="wezterm"] border pixel 0
